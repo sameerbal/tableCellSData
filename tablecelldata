@@ -1,0 +1,49 @@
+package utilities;
+
+public class TableCellData {
+
+	private String columnName;
+	private int columNumber;
+	private int rowNumber;
+	private int cellType;
+	private Object cellValue;
+
+	public String getColumnName() {
+		return columnName;
+	}
+
+	public void setColumnName(String columnName) {
+		this.columnName = columnName;
+	}
+
+	public int getColumNumber() {
+		return columNumber;
+	}
+
+	public void setColumNumber(int columNumber) {
+		this.columNumber = columNumber;
+	}
+
+	public int getCellType() {
+		return cellType;
+	}
+
+	public void setCellType(int cellType) {
+		this.cellType = cellType;
+	}
+
+	public Object getCellValue() {
+		return cellValue;
+	}
+
+	public void setCellValue(Object cellValue) {
+		this.cellValue = cellValue;
+	}
+
+	@Override
+	public String toString() {
+		return "UtilityCellData [columnName=" + columnName + ", columNumber=" + columNumber + ", rowNumber=" + rowNumber
+				+ ", cellType=" + cellType + ", cellValue=" + cellValue + "]";
+	}
+
+}
